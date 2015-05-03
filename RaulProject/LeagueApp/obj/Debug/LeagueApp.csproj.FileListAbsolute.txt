@@ -1,0 +1,17 @@
+C:\Users\Barry\Documents\Projects\LeagueApp\LeagueApp\bin\Debug\LeagueApp.dll
+C:\Users\Barry\Documents\Projects\LeagueApp\LeagueApp\bin\Debug\LeagueApp.pdb
+C:\Users\Barry\Documents\Projects\LeagueApp\LeagueApp\bin\Debug\LeagueApp.dll.mdb
+C:\Users\Barry\Documents\Projects\LeagueApp\LeagueApp\bin\Debug\LeagueApp.LeagueApp.apk
+C:\Users\Barry\Documents\Projects\LeagueApp\LeagueApp\bin\Debug\LeagueApp.LeagueApp-Signed.apk
+C:\Users\Barry\Documents\Projects\LeagueApp\LeagueApp\obj\Debug\LeagueApp.dll
+C:\Users\Barry\Documents\Projects\LeagueApp\LeagueApp\obj\Debug\LeagueApp.pdb
+C:\Users\Barry\Documents\Projects\LeagueApp\LeagueApp\obj\Debug\android\bin\LeagueApp.LeagueApp.apk
+C:\Users\Barry\Documents\Projects\LeagueApp\LeagueApp\obj\Debug\res\values\strings.xml
+C:\Users\Barry\Documents\Projects\LeagueApp\LeagueApp\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\Barry\Documents\Projects\LeagueApp\LeagueApp\obj\Debug\res\drawable-mdpi\icon.png
+C:\Users\Barry\Documents\Projects\LeagueApp\LeagueApp\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\Barry\Documents\Projects\LeagueApp\LeagueApp\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\Barry\Documents\Projects\LeagueApp\LeagueApp\obj\Debug\res\drawable-xxxhdpi\icon.png
+C:\Users\Barry\Documents\Projects\LeagueApp\LeagueApp\obj\Debug\res\layout\startactivity.xml
+C:\Users\Barry\Documents\Projects\LeagueApp\LeagueApp\obj\Debug\R.cs.flag
+C:\Users\Barry\Documents\Projects\LeagueApp\LeagueApp\obj\Debug\uploadflags.txt

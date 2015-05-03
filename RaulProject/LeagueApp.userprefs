@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="LeagueApp\LeagueApp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.YT910LXQD2" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="LeagueApp\startActivity.cs" Line="31" Column="4" />
+      <File FileName="LeagueApp\Resources\Resource.designer.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.LeagueApp AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>
