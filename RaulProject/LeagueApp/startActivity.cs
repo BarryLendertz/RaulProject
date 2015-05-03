@@ -7,16 +7,22 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using System.Collections.Generic;
+using Newtonsoft.Json;
+
+
 
 namespace LeagueApp
 {
-	[Activity (Label = "LeagueApp", MainLauncher = true, Icon = "@drawable/icon", ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
+	[Activity (Label = "LeagueApp", MainLauncher = true, Icon = "@drawable/icon")]
 	public class startActivity : Activity
 	{
+		string Region;
+		string SummonerName;
+
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
-
+		
 			// set the layout for this activity
 			SetContentView (Resource.Layout.startActivity);
 
@@ -31,8 +37,9 @@ namespace LeagueApp
 			
 			proceedButton.Click += delegate {
 				// check if everything's filled
-				string Region = "";
-				string SummonerName = editText1.Text;
+				Region = "";
+				SummonerName = editText1.Text;
+
 				bool rememberMe = checkBox1.Checked;
 
 				RadioGroup radioGroup1 = FindViewById<RadioGroup> (Resource.Id.radioGroup1);
@@ -68,7 +75,26 @@ namespace LeagueApp
 					Toast.MakeText(this, "You didn't select a region!", ToastLength.Short).Show();
 					return;
 				};
+
+				CheckSummonerName(SummonerName);
 			};
+		}
+
+		void CheckSummonerName(string SummonerName)
+		{
+			string url = FormatURL (SummonerName);
+			//Create a new WebRequest
+			System.Net.WebRequest request = System.Net.WebRequest.Create(url);
+			Toast.MakeText(this, "We have succesfully sent a request to the server!", ToastLength.Short).Show();
+		}
+
+		string FormatURL(string SummonerName){
+			// we need the Region the player is in, and the player name in a variable here.
+			string api_key = "6b7a1e1f-4f2b-4d5f-ad2e-dfc5f9fbdd54"
+			string url = String.Format ("https://{0}.api.pvp.net/api/lol/{1}/v1.4/summoner/by-name/{2}?api_key={3}", Region, Region, SummonerName, api_key);
+
+			return url;
+							
 		}
 	}
 }

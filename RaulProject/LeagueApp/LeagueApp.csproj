@@ -52,6 +52,9 @@
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
+    <None Include="Resources\Newtonsoft.Json.dll" />
+    <None Include="Resources\Newtonsoft.Json.pdb" />
+    <None Include="Resources\Newtonsoft.Json.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />

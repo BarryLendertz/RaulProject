@@ -31,19 +31,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="EU West"
+            android:text="EUW"
             android:id="@+id/radioButton1" />
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="EU Nordic&amp;East"
+            android:text="EUNE"
             android:id="@+id/radioButton2" />
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="North America"
+            android:text="NA"
             android:id="@+id/radioButton3" />
     </RadioGroup>
     <TextView
